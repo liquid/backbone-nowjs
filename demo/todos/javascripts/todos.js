@@ -46,7 +46,7 @@
 
   });
 
-  window.Todos = new TodoList;
+  window.Todos = new TodoList();
 
   window.TodoView = Backbone.View.extend({
 
@@ -219,7 +219,7 @@
         $('#message').fadeIn();
       });
 
-      window.App = new AppView;
+      window.App = new AppView();
     });
   });
 }());
